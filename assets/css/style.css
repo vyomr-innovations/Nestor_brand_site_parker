@@ -268,8 +268,6 @@ body {
 	}
 }
 
-@media only screen and (min-width: 240px) {
-
 .navbar.past-main {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -315,10 +313,8 @@ body {
 ----------------------------------------------------------*/
 
 .hero-home {
-  padding: 100px 0 100px 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/heroo.jpg) no-repeat center center;
-	background-size: cover;
-	background-position: bottom;
+ padding: 100px 0 100px 0;
+ color: #000;
 }
 
 .hero-home .intro-block {
@@ -336,7 +332,7 @@ body {
 .hero-home h4 {
 	font-size: 12px;
 	font-weight: 500;
-	color: #FFF;
+	color: #ec0101;
 	text-transform: uppercase;
 	line-height: 1.2;
 	letter-spacing: 1px;
@@ -346,8 +342,7 @@ body {
 .hero-home h1 {
 	font-size: 32px;
 	font-weight: 700;
-	color: #FFFFFF;
-	color: #FFF;
+	color: #ec0101;
 	line-height: 1.4;
 	letter-spacing: -1px;
 }
@@ -355,7 +350,7 @@ body {
 .hero-home p {
 	font-size: 14px;
 	font-weight: 500;
-	color: #EFEFEF;
+	color: #333;
 	line-height: 1.6;
 	margin-top: 20px;
 }
@@ -989,7 +984,13 @@ body {
 	.flex-intro h2 {
 		font-size: 32px;
 	}
-
+	.navbar-expand-md .navbar-collapse {
+		flex-basis: auto;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 
 
@@ -2530,5 +2531,7 @@ textarea.form-control {
 
 	.form .submit-button {
     margin-left: 5px;
+	}
 }
-}
+
+.ml-15 { margin-left: 15px;}
