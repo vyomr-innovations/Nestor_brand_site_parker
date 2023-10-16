@@ -178,6 +178,8 @@ body {
 .navbar .navbar-brand img {
 	vertical-align: middle;
 	margin-right: 0.3em;
+	-webkit-transition: width .5s ease, height .5s ease;
+	max-width: 100%;
 }
 
 .navbar .navbar-toggler {
@@ -275,6 +277,19 @@ body {
 	-webkit-box-shadow: 0 3px 10px 0 rgba(96, 96, 96, 0.3);
 	-moz-box-shadow: 0 3px 10px 0 rgba(96, 96, 96, 0.3);
 	box-shadow: 0 3px 10px 0 rgba(96, 96, 96, 0.3);
+}
+
+.navbar.past-main2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.99) !important;
+	-webkit-box-shadow: 0 3px 10px 0 rgba(96, 96, 96, 0.3);
+	-moz-box-shadow: 0 3px 10px 0 rgba(96, 96, 96, 0.3);
+	box-shadow: 0 3px 10px 0 rgba(96, 96, 96, 0.3);
+}
+
+.navbar.past-main2 .navbar-brand img {
+	width: 75px;
 }
 
 .navbar.effect-main {
@@ -1931,7 +1946,7 @@ body {
 }
 
 .contact-intro {
-	max-width: 600px;
+	max-width: 450px;
 	margin: 0 auto;
 }
 
@@ -2093,10 +2108,9 @@ textarea.form-control {
 }
 
 .lbl-services {
-	background: #f8faff;
-	background: #f8faff;
 	padding: 100px 0 50px 0;
 	position: relative;
+	background: #f8faff;
 }
 
 .lbl-service-card {
@@ -2535,3 +2549,96 @@ textarea.form-control {
 }
 
 .ml-15 { margin-left: 15px;}
+
+.gradient-head-red {
+	font-size: 72px;
+	background: linear-gradient(to right, rgb(236, 0, 0) , rgb(116, 3, 65));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.btn-gradient {
+	background-image: linear-gradient(90deg, rgba(116, 3, 65,1) 0%, rgba(236,0,0,1) 49%, rgba(116, 3, 65,1) 100%);
+	border-radius: 20px;
+	position: relative;
+  	text-decoration: none;
+  	z-index: 2;
+	  padding: 2px !important;
+	  box-sizing: border-box;
+}
+
+.btn-gradient span {
+	align-items: center;
+	background: #fff;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .3s ease;
+	width: 100%;
+	padding: 8px 16px;
+	color: rgb(236, 0, 0);
+}
+
+.btn-gradient:hover span {
+	background: transparent;
+	color: #fff;
+}
+
+.bg-gray {
+	background: #f8faff;
+}
+
+.social-icons i {
+	font-size: 24px;
+}
+
+.btn-cta-outline {
+    font-family: "Montserrat";
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+	border: #15ccbe solid 2px;
+    border-radius: 100px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none !important;
+    outline: none !important;
+    background-color: #fff;
+    color: #15ccbe;
+    cursor: pointer;
+}
+
+.btn-cta-outline:hover {
+	background-color: #15ccbe;
+	color: #fff;
+}
+
+.team {
+	margin: 0 auto;
+}
+.team .lbl-service-card {
+	padding: 0;
+}
+
+.card-text.team-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+	text-align: left;
+	padding-top: 0px;
+	font-family: 'Montserrat';
+}
+
+.desig {
+	font-size: 18px;
+}
+
+.card-text.team-text i {
+	font-size: 32px;
+}
+.name {
+    margin-bottom: 8px;
+}
