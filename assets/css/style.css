@@ -1599,8 +1599,8 @@ body {
 
 .cta-sm {
 	padding: 100px 0 100px 0;
-	background: rgba(30, 166, 154, 0.1);
-	background: #f8faff;
+	background: rgb(96 96 96);
+	color: #fff;
 }
 
 .cta-sm .cta-content {
@@ -1939,7 +1939,7 @@ body {
 
 .contact {
 	padding: 150px 0 50px 0;
-	background: #f8faff;
+	background: #fff;
 }
 
 .contact-intro {
@@ -1970,11 +1970,11 @@ body {
 	font-size: 14px;
 	font-weight: 500;
 	border: none;
-  border-bottom: 2px solid #15ccbe;
+  border-bottom: 2px solid rgba(239, 0, 0, 1);
   border-radius: 1px;
   margin-top: 10px;
-	background: rgba(21, 204, 190, 0.05);
-  margin-bottom: 40px;
+	background: rgba(239, 0, 0, 0.05);
+  margin-bottom: 15px;
   -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
   box-shadow: inset 0 0px 0px rgba(0,0,0,0);
   -webkit-transition: 0.5s;
@@ -1983,8 +1983,8 @@ body {
 }
 
 .form-control:focus {
-  border-color: #15ccbe;
-	background: rgba(21, 204, 190, 0.1);
+  border-color: rgba(239, 0, 0, 1);
+	background: rgba(239, 0, 0, 0.1);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1994,7 +1994,11 @@ body {
 textarea,
 textarea.form-control {
 	height: auto;
-	background: rgba(21, 204, 190, 0.05);
+	background: rgba(239, 0, 0, 0.05);
+}
+
+.contact-form .form-group {
+	margin-bottom: 25px;
 }
 
 .contact-form label {
@@ -2026,7 +2030,7 @@ textarea.form-control {
   color: #FFFFFF;
 	border: 0;
 	cursor: pointer;
-	background: #15ccbe;
+	background: rgba(21, 204, 190, 1);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
     transition: 0.5s;
@@ -2034,8 +2038,9 @@ textarea.form-control {
 
 .btn-send:hover, .btn-send:focus, .btn-send:active {
   color: #FFFFFF;
-	background: #15ccbe;
+	background: rgba(21, 204, 190, 1);
 	border: 0;
+	box-shadow: 0 10px 25px 0 rgba(0, 92, 100,.2);
   outline: none !important;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -2455,6 +2460,11 @@ textarea.form-control {
 
 .home-3 h1 {
 	font-size: 28px;
+}
+
+.home-3 h1 strong {
+	font-size: 37px;
+	letter-spacing: 2.5px;
 }
 
 .home-3 p {
