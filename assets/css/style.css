@@ -1990,6 +1990,11 @@ body {
   box-shadow: none;
 }
 
+.contact-form .has-error .form-control {
+	border-color: #ec0000;
+	background: rgba(230, 0, 0, 0.02);
+}
+
 .contact-form input[type="text"],
 textarea,
 textarea.form-control {
@@ -2730,4 +2735,9 @@ textarea.form-control {
 
 .button2:hover:before {
 	width: 100%;
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: .65;
+    cursor: not-allowed;
 }
