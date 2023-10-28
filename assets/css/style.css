@@ -22,8 +22,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -33,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Montserrat';
+    font-size: 14px;
 }
 ol, ul {
 	list-style: none;
@@ -1990,6 +1990,11 @@ body {
   box-shadow: none;
 }
 
+.contact-form .has-error .form-control {
+	border-color: #ec0000;
+	background: rgba(230, 0, 0, 0.02);
+}
+
 .contact-form input[type="text"],
 textarea,
 textarea.form-control {
@@ -2730,4 +2735,9 @@ textarea.form-control {
 
 .button2:hover:before {
 	width: 100%;
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: .65;
+    cursor: not-allowed;
 }
