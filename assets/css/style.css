@@ -31,8 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', Arial,sans-serif;
     font-size: 14px;
+	font-display: swap;
 }
 ol, ul {
 	list-style: none;
@@ -55,12 +56,14 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat';
+	font-display: swap;
   font-size: 16px;
 }
 
 p {
 	font-family: 'Montserrat';
 	font-size: 14px;
+	font-display: swap;
 }
 
 /*----- Helper Classes -----*/
