@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+                        http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://nestortech.io/</loc>
+        <lastmod>2023-11-04T10:10:58+00:00</lastmod>
+        <priority>1.00</priority>
+        <image:image>
+            <image:loc>https://nestortech.io/assets/deliver-your-virtual-asset.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://nestortech.io/assets/images/asset-as-a-service.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://nestortech.io/assets/images/Zero-redundancy.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://nestortech.io/about</loc>
+        <lastmod>2023-11-04T10:10:58+00:00</lastmod>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://nestortech.io/assets/images/Shahnaz%20Khan.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://nestortech.io/assets/images/Praveen%20Pahwa.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://nestortech.io/contact</loc>
+        <lastmod>2023-11-04T10:10:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
